@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name "viewport" content="device-width", initial-scale=1.0">
-		<title> Мой сайт </title>
+		<title> Buy and Travel</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -32,7 +32,7 @@
 			<div class="container">
 				<div class="centered">
 					<div class="col-lg-8 col-lg-offset-2">
-						<h1> Сервис "Buy and Travel"</h1>
+						<h1> <b>"Buy and Travel"</b></h1>
 						<h2>
 							Наша компания занимается подборкой самых дешевых билетов и туров в любую точку земного шара от различных туроператоров
 						</h2>
@@ -90,32 +90,43 @@
 			<div class="container">
 				<div >
 					<div >
-		<form class="contact_form" action="contact-form.php" method="post">
- <p>
-            <label for="name">Имя:</label>
-            <input type="text"  name="name" placeholder="Введите имя" required />
-        </p>
-        <p>
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Ваш электронный адрес" required />
+
+
+						<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+  	<p>
+  	<label for="name">Имя:</label>
+    <input class="form-control mr-sm-2" type="search" placeholder="Ваше имя" aria-label="name">
+    </p>
+  
+  
+  
+  	<p>
+  	<label for="Email">Email:</label>
+    <input class="form-control mr-sm-2" type="search" placeholder="Ваш email" aria-label="Email">
+    </p>
+  
+  
+  	
+  	<label for="country">Введите страну, куда хотели бы поехать и по какой максимально допустимой цене</label>
+    <p>
             
+            <textarea name="country" cols="40" rows="3" required ></textarea>
         </p>
-       <label for="message">Введите страну, куда хотели бы поехать и по какой максимально допустимой цене</label>
-        
         <p>
-            
-            <textarea name="message" cols="40" rows="3" required ></textarea>
+        	<a href="#">
+        		
+        	<button class="btn btn-outline-success" type="button">
+        	<div class="send"> Отправить
+        	</div>
+        </button>
+
+        	</a>
+
+    
         </p>
         
-        	
-        
-     <input name="bezspama" type="text" style="display:none" value="" />
-        <p>
-        	<div class="send">
-            <input type="submit" value="Отправить">
-			</div>
-        </p>
-</form>
+  
 </div>
 </div>
 </div>
